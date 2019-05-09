@@ -1,0 +1,15 @@
+{
+  "name": "docker-project-trade",
+  "version": "1.0.0",
+  "description": "## Required",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docker build -t martient/trade-epitech-docker:latest . && docker run martient/trade-epitech-docker:latest"
+  },
+  "author": "Arnaud (Martient)",
+  "license": "ISC"
+}
